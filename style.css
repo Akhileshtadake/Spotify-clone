@@ -11,7 +11,7 @@ body{
 
 nav{
     font-family: 'Ubuntu', 'sans-serif';
-    position: sticky;
+    position: relative;
     top: 0px;
 }
 
@@ -107,6 +107,18 @@ nav ul li{
 .songInfo{
     position:absolute;
     left: 10vw;
+    color: antiquewhite;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 10vw;
+}
+#volumeSlider {
+    width: 100px;
 }
 
 
